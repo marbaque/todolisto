@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-sm</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="up-to-do-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Manager" transform="translate(-56.000000, -24.000000)">
+            <g id="icon-sm" transform="translate(56.000000, 24.000000)">
+                <g id="icon">
+                    <circle id="Oval-2" fill="#EF5350" cx="22" cy="22" r="22"></circle>
+                    <g id="crystal-ball" transform="translate(5.980583, 9.398058)" stroke="#FFFFFF">
+                        <g id="Free_Icons">
+                            <g id="Group">
+                                <polygon id="Shape" points="7.50737145 25.5374714 0.0962483519 12.815534 7.50737145 0.0935965965 23.6770946 0.0935965965 31.0882177 12.815534 23.6770946 25.5374714"></polygon>
+                                <polygon id="Shape" points="31.0882177 12.815534 20.9821407 6.78935311 7.50737145 0.0935965965 6.15989452 14.8242609 7.50737145 25.5374714 21.6558792 22.8591688"></polygon>
+                                <polygon id="Shape" points="20.9821407 6.78935311 6.15989452 14.8242609 21.6558792 22.8591688"></polygon>
+                                <path d="M23.6770946,25.5374714 L21.6558792,22.8591688" id="Shape"></path>
+                                <path d="M0.0962483519,12.815534 L6.15989452,14.8242609" id="Shape"></path>
+                                <path d="M23.6770946,0.0935965965 L20.9821407,6.78935311" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,715 @@
+@-webkit-keyframes slide-down {
+  0% {
+    opacity: 0;
+    margin-top: 0; }
+
+  90% {
+    opacity: 1;
+    margin-top: 10%; } }
+@-moz-keyframes slide-down {
+  0% {
+    opacity: 0;
+    margin-top: 0; }
+
+  90% {
+    opacity: 1;
+    margin-top: 10%; } }
+@-ms-keyframes slide-down {
+  0% {
+    opacity: 0;
+    margin-top: 0; }
+
+  90% {
+    opacity: 1;
+    margin-top: 10%; } }
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+    margin-top: 0; }
+
+  90% {
+    opacity: 1;
+    margin-top: 10%; } }
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0; }
+
+  90% {
+    opacity: 1; } }
+@-moz-keyframes fade-in {
+  0% {
+    opacity: 0; }
+
+  90% {
+    opacity: 1; } }
+@-ms-keyframes fade-in {
+  0% {
+    opacity: 0; }
+
+  90% {
+    opacity: 1; } }
+@keyframes fade-in {
+  0% {
+    opacity: 0; }
+
+  90% {
+    opacity: 1; } }
+@-webkit-keyframes timemachine {
+  0% {
+    -ms-transform: rotate(-760deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-760deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-760deg);
+    -webkit-transition-timing-function: ease-out;
+    /* Safari and Chrome */
+    transition-timing-function: ease-out; }
+
+  100% {
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg); } }
+@-moz-keyframes timemachine {
+  0% {
+    -ms-transform: rotate(-760deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-760deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-760deg);
+    -webkit-transition-timing-function: ease-out;
+    /* Safari and Chrome */
+    transition-timing-function: ease-out; }
+
+  100% {
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg); } }
+@-ms-keyframes timemachine {
+  0% {
+    -ms-transform: rotate(-760deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-760deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-760deg);
+    -webkit-transition-timing-function: ease-out;
+    /* Safari and Chrome */
+    transition-timing-function: ease-out; }
+
+  100% {
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg); } }
+@keyframes timemachine {
+  0% {
+    -ms-transform: rotate(-760deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-760deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-760deg);
+    -webkit-transition-timing-function: ease-out;
+    /* Safari and Chrome */
+    transition-timing-function: ease-out; }
+
+  100% {
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\0000380}}
+body {
+  color: #4A4A4A;
+  background: #f8f8f8; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\0000384}}
+a {
+  color: #4A4A4A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\0000386}}
+  a:hover {
+    color: #ef5350; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\0000390}}
+h1, h2, h3, h4, h5 {
+  font-weight: 800; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\0000394}}
+.header .button {
+  margin: 0 2px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\0000397}}
+a {
+  color: #4A4A4A; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003100}}
+h1, h2, h3, h4, h5 {
+  font-weight: 800; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003103}}
+.header .button {
+  margin: 0 2px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003107}}
+.blackwrap {
+  background-image: url("../images/jlwvautloaq-dustin-lee-sm.jpg");
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  overflow: visible;
+  position: relative;
+  top: 0;
+  margin: 0;
+  padding: 0; }
+  @media screen and (min-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003107}}
+    .blackwrap {
+      background-image: url("../images/jlwvautloaq-dustin-lee-md.jpg"); } }
+  @media screen and (min-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003107}}
+    .blackwrap {
+      background-image: url("../images/jlwvautloaq-dustin-lee-lg.jpg"); } }
+  @media screen and (min-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003107}}
+    .blackwrap {
+      background-image: url("../images/jlwvautloaq-dustin-lee.jpg"); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003131}}
+  .blackwrap .landing-banner {
+    text-align: center;
+    clear: both;
+    width: 90vw;
+    padding-top: 10vh;
+    margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003138}}
+    .blackwrap .landing-banner .icon img {
+      width: 84px;
+      height: auto;
+      -webkit-animation: fade-in 2s 1;
+      -moz-animation: fade-in 2s 1;
+      -ms-animation: fade-in 2s 1;
+      animation: fade-in 2s 1;
+      -webkit-animation: timemachine 4s 1;
+      -moz-animation: timemachine 4s 1;
+      -ms-animation: timemachine 4s 1;
+      animation: timemachine 4s 1; }
+      @media screen and (min-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003138}}
+        .blackwrap .landing-banner .icon img {
+          width: 128px;
+          height: auto; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003148}}
+    .blackwrap .landing-banner .logo-lg {
+      /* Todo listo: */
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 52px;
+      color: #ef5350;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+      text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.6);
+      text-transform: lowercase;
+      -webkit-animation: fade-in 2s 1;
+      -moz-animation: fade-in 2s 1;
+      -ms-animation: fade-in 2s 1;
+      animation: fade-in 2s 1; }
+      @media screen and (min-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003148}}
+        .blackwrap .landing-banner .logo-lg {
+          font-size: 64px; } }
+      @media screen and (min-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003148}}
+        .blackwrap .landing-banner .logo-lg {
+          font-size: 96px;
+          text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.57); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003166}}
+    .blackwrap .landing-banner h2.leyend {
+      /* organizador de tareas */
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      color: #3e3e3e;
+      letter-spacing: 5.34px;
+      background: rgba(250, 250, 250, 0.25);
+      display: inline-block;
+      clear: both;
+      padding: 1px 4px;
+      margin: 0 auto;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 1px rgba(250, 250, 250, 0.8); }
+      @media screen and (min-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003166}}
+        .blackwrap .landing-banner h2.leyend {
+          font-size: 18px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003184}}
+    .blackwrap .landing-banner .landing-buttons {
+      text-align: center;
+      width: 100%;
+      margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003188}}
+      .blackwrap .landing-banner .landing-buttons a {
+        margin: 0 10px 40px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003191}}
+      .blackwrap .landing-banner .landing-buttons a.signup {
+        background: #50E3C2;
+        border: 1px solid #15505D;
+        border-radius: 4px;
+        color: #15505D;
+        text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.45); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003198}}
+      .blackwrap .landing-banner .landing-buttons a.signin {
+        background: #5CCE4B;
+        border: 1px solid #2B5F23;
+        border-radius: 4px;
+        color: #2B5F23;
+        text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.45); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003208}}
+.boards {
+  padding: 10% 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003210}}
+  .boards .board {
+    text-align: center;
+    margin: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003213}}
+    .boards .board p {
+      font-size: 1.1em;
+      margin: 10px 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003219}}
+.mailchimp {
+  width: 100%; }
+  @media screen and (min-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003219}}
+    .mailchimp {
+      margin: 10% auto;
+      width: 60%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003227}}
+  .mailchimp #mc_embed_signup {
+    background-color: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003231}}
+  .mailchimp:before {
+    content: '';
+    height: 10px;
+    width: calc(100%+2em) !important;
+    display: block;
+    position: relative;
+    background: -webkit-repeating-linear-gradient(315deg, #ef5350, #ef5350 7px, #f4f8fa 7px, #f4f8fa 14px, #1071dd 14px, #1071dd 21px, #f4f8fa 21px, #f4f8fa 28px);
+    background: repeating-linear-gradient(135deg, #ef5350, #ef5350 7px, #f4f8fa 7px, #f4f8fa 14px, #1071dd 14px, #1071dd 21px, #f4f8fa 21px, #f4f8fa 28px); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003240}}
+  .mailchimp input[type=submit] {
+    text-transform: capitalize; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003250}}
+.main {
+  padding: 1em 0;
+  margin-bottom: 40px;
+  min-height: 400px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003255}}
+header.header {
+  padding-top: 30px;
+  text-align: center; }
+  @media screen and (min-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003255}}
+    header.header {
+      text-align: left; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003262}}
+.button {
+  background: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003265}}
+.logo {
+  /* todo listo: */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 0/0;
+  background: url("../images/icon-sm.svg") no-repeat;
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  text-indent: -2000px;
+  overflow: hidden;
+  float: left;
+  text-transform: lowercase; }
+  @media screen and (min-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003265}}
+    .logo {
+      font-size: 30px;
+      color: #ef5350;
+      letter-spacing: 0.62px;
+      background: url("../images/icon-sm.svg") no-repeat;
+      display: inline-block;
+      height: 44px;
+      width: auto;
+      line-height: 1.5;
+      padding-left: 50px;
+      text-indent: 0;
+      overflow: visible; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003291}}
+.no-svg .logo {
+  background: url("../images/icon-sm.png") no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003294}}
+.welcome {
+  margin-bottom: .5em;
+  color: #613d3d;
+  margin-bottom: 1em;
+  font-size: 0.9em;
+  text-align: left;
+  display: block;
+  line-height: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003303}}
+  .welcome .userpic {
+    float: left;
+    position: relative;
+    margin-right: 1em;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003310}}
+  .welcome a.logout {
+    font-size: 0.8em;
+    float: right;
+    position: relative;
+    clear: none; }
+
+@media screen and (min-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003319}}
+  .usermenu {
+    float: right; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003324}}
+.usermenu ul {
+  list-style: none;
+  float: right;
+  margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003328}}
+  .usermenu ul li {
+    display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003333}}
+.usermenu a.action-btn {
+  padding: 10px 15px;
+  border: 1px solid #eaeaea;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 0 4px;
+  background-color: #ef5350;
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003341}}
+  .usermenu a.action-btn:hover {
+    background-color: rgba(240, 82, 80, 0.51);
+    color: #ef5350; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003349}}
+.group {
+  margin-bottom: 1em;
+  display: block;
+  overflow: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003354}}
+h4.group-title {
+  font-weight: 800;
+  margin: 1em 0;
+  text-shadow: none;
+  width: 80%;
+  font-size: 1.1em;
+  padding: 0 1%; }
+  @media screen and (min-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003354}}
+    h4.group-title {
+      font-size: 1.2em; } }
+  @media screen and (min-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003354}}
+    h4.group-title {
+      font-size: 1.4em; } }
+  @media screen and (min-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003354}}
+    h4.group-title {
+      font-size: 1.6em; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003371}}
+.item {
+  background: #FFFFFF;
+  border: 1px solid #CDCACA;
+  padding: 0.5em 1em;
+  margin-top: -1px; }
+  @media screen and (min-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003371}}
+    .item {
+      padding: 0.5em 1em; } }
+  @media screen and (min-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003371}}
+    .item {
+      padding: 1em 2em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003382}}
+  .item .editmenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003389}}
+    .item .editmenu li {
+      display: inline;
+      margin: 0.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003393}}
+    .item .editmenu a {
+      text-decoration: none;
+      font-weight: 100; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003397}}
+      .item .editmenu a:hover {
+        color: #605f5f; }
+    @media screen and (min-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003382}}
+      .item .editmenu {
+        text-align: right;
+        margin-top: 0; } }
+    @media screen and (min-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003382}}
+      .item .editmenu {
+        font-size: 12px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003410}}
+.fa-square-o,
+.fa-check-square-o {
+  margin-left: -1.5em;
+  margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003415}}
+.empty {
+  background: #FFE0D6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003418}}
+.alert {
+  background: #F6D523;
+  border-color: #D3B71D;
+  color: #AA7C0A;
+  padding: 1em;
+  margin: 1em 0;
+  -webkit-animation: fade-in 1s 1;
+  -moz-animation: fade-in 1s 1;
+  -ms-animation: fade-in 1s 1;
+  animation: fade-in 1s 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003425}}
+  .alert::before {
+    font-family: 'FontAwesome';
+    content: "\f06a";
+    margin-right: .5em;
+    font-size: 120%;
+    color: #ef5350; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003433}}
+.task-title {
+  font-weight: 200;
+  display: inline;
+  margin-bottom: 0;
+  font-size: 0.8em;
+  line-height: 1 !important; }
+  @media screen and (min-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003433}}
+    .task-title {
+      font-size: 0.9em; } }
+  @media screen and (min-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003433}}
+    .task-title {
+      font-size: 1.1em; } }
+  @media screen and (min-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003433}}
+    .task-title {
+      font-size: 1.2em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003450}}
+  .task-title .deadline {
+    white-space: nowrap;
+    font-size: 10px;
+    white-space: pre; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003455}}
+    .task-title .deadline .calendar {
+      font-size: 10px;
+      width: 10px;
+      height: 10px;
+      padding: 5px;
+      border: 1px solid #d2d2d2;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      line-height: 1;
+      text-align: center; }
+    @media screen and (min-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003450}}
+      .task-title .deadline {
+        font-size: 12px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003473}}
+.complete {
+  background-color: #cff3f6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003476}}
+.complete a.edit {
+  /* 	visibility: hidden; */
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003480}}
+.complete .task-title {
+  text-decoration: line-through;
+  color: #669498; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003484}}
+.complete .deadline {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003487}}
+.complete strong {
+  visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003490}}
+.editmenu-g {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  width: 20%;
+  clear: right;
+  color: #d2d2d2;
+  font-size: 0.5em;
+  text-shadow: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003499}}
+  .editmenu-g a {
+    display: inline;
+    margin: 0 0.6em;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #d2d2d2;
+    font-weight: 100; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003506}}
+    .editmenu-g a:hover {
+      color: #605f5f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003516}}
+.form-box, .mailchimp {
+  border: 1px solid #3e3e3e;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003524}}
+  .form-box input ::-webkit-input-placeholder, .mailchimp input ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: pink; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003527}}
+  .form-box input ::-moz-placeholder, .mailchimp input ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: pink; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003530}}
+  .form-box input :-ms-input-placeholder, .mailchimp input :-ms-input-placeholder {
+    /* IE 10+ */
+    color: pink; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003533}}
+  .form-box input :-moz-placeholder, .mailchimp input :-moz-placeholder {
+    /* Firefox 18- */
+    color: pink; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003540}}
+form.done {
+  display: inline;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003544}}
+.info-box {
+  margin-bottom: 3em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003546}}
+  .info-box .gravatar {
+    text-align: center;
+    margin: 3em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003549}}
+    .info-box .gravatar img {
+      margin: 0 auto;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      background-clip: padding-box;
+      /* stops bg color from leaking outside the border: */
+      border: 10px solid #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003555}}
+  .info-box ul {
+    list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003560}}
+.info-sidebar ul {
+  list-style: none; }
+@media screen and (min-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003559}}
+  .info-sidebar {
+    padding-top: 5em; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003567}}
+.footwrap {
+  padding: 0.5em 0;
+  color: #3e3e3e;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003579}}
+  .footwrap nav ul {
+    padding: 0;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003582}}
+    .footwrap nav ul li {
+      display: inline-block;
+      list-style: none;
+      margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003586}}
+      .footwrap nav ul li:not(:last-child)::after {
+        content: "|";
+        text-align: center;
+        margin: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003595}}
+  .footwrap a {
+    color: #3e3e3e;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003598}}
+    .footwrap a:hover {
+      color: #ef5350;
+      text-decoration: underline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003604}}
+.fixed {
+  position: fixed;
+  bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003608}}
+a.plus {
+  display: block;
+  width: 30px;
+  height: 30px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50%;
+  border-radius: 50px;
+  padding: 4px;
+  border: 1px solid #c4c2c2;
+  line-height: 2;
+  background: #fff;
+  transition: all 200ms; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003620}}
+  a.plus:hover {
+    -ms-transform: rotate(360deg);
+    /* IE 9 */
+    -webkit-transform: rotate(360deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+    border: 1px solid #909090; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003628}}
+.terms {
+  line-height: 1;
+  margin-left: 0.1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/php\/finalproj\/css\/main\.scss}line{font-family:\00003632}}
+quote {
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 400; }
+
+/*# sourceMappingURL=main.css.map */
