@@ -77,7 +77,7 @@
 			</div>
 			<div class="row">
 				<div class="eight columns">
-					<h2>Mi información</h2>
+					<h2>Mi perfil</h2>
 					<div class="form-box info-box">
                         <!-- gravatar image -->
 						<div class="gravatar">
